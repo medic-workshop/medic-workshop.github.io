@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>MULTI Workshop</title>
+  <title>MEDIC Workshop</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 
  <script async src="https://www.googletagmanager.com/gtag/js?id=G-89QVQG6KE0"></script>
@@ -58,14 +58,19 @@
     }
 
     .header {
-      width: 100%;
-      text-align: center;
+      <!--width: 100%;-->
+      <!--text-align: center;-->
+	  align: right;
+	  align-content: flex-end;
+	  justify-content: flex-end;
       position: relative;
     }
 
     .header img {
-      width: 100%;
-      min-width: 880px;
+      <!--width: 100%;-->
+	  align-content: flex-end;
+	  justify-content: flex-end;
+      <!--min-width: 880px;-->
     }
 
     .header div {
@@ -193,16 +198,13 @@
   <div class="container-fluid">
 
     <div class="header">
-      <img src="img/stones.png" />
+      <img src="img/logo.jpg" width="150" height="150"/>
       <div style="zoom:1.14">
         <p style="font-size: 23px; line-height: 1.4; margin-bottom: -0.5em">
-          MULTI 2024 - 11<sup>th</sup> International Workshop <br/>
-          on Multi-Level Modeling</p>
-        <p style="line-height: 1.4;">22-24 September 2024*<br/>
-          MODELS 2024, Linz, Austria</p>
-        <!-- <p style="font-size: 23px; line-height: 1.4; margin-bottom: -0.5em">
-          MULTI - International Workshop on<br>
-          Multi-Level Modeling</p> -->
+          MEDIC 2026 - 1<sup>st</sup> International Workshop <br/>
+          on Model Engineering for Digital Innovation <br>
+		  in Healthcare</p>
+        <p style="line-height: 1.4;">4-5 October 2026, co-located at MODELS 2026, Malaga, Spain</p>
       </div>
     </div>
   </div>
@@ -216,23 +218,27 @@
         <a class="nav-link" data-toggle="tab" href="#dates">Dates</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#cfp">Calls 2024</a>
+        <a class="nav-link" data-toggle="tab" href="#cfp">Calls 2026</a>
       </li>
-      <li class="nav-item">
+      <!--
+	  <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#challenges">Challenges</a>
       </li> 
+	  -->
       <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#committees">Committees</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#program">Program</a>
       </li>
+	  <!--
       <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#past">Past</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://homepages.ecs.vuw.ac.nz/Groups/MultiLevelModeling/" target="_blank">Wiki</a>
       </li>
+	  -->
     </ul>
 
 	  
@@ -242,22 +248,41 @@
 
       <div class="tab-pane fade active show" id="home">
         <p>
-          The MULTI workshop series is the premier venue for researchers and practitioners working on multi-level modeling and multi-level software development. Multi-level modeling represents a new object-oriented paradigm for both conceptual modelling and software engineering. In contrast to conventional two-level approaches, it supports an unbounded number of classification levels and introduces concepts and mechanisms that foster reuse, adaptability, and control. While multi-level languages and tools have reached considerable maturity, the field still offers numerous challenges.
+          Digital innovation in healthcare is supported by a range of digital solutions, including telemedicine, clinical decision support and prescription apps. The widespread
+adoption of such solutions raises quality concerns relating to safety, security, interoperability and maintainability. The aim of this workshop is to encourage
+discussion about the design, development, application and evaluation of models and model transformations that address quality concerns in medical
+software from the Model-Driven Engineering (MDE) perspective. Firstly, we aim to identify and explore the potential of modelling for digital transformation in
+healthcare. On the other hand, we want to discuss which modelling foundations are lacking to support digital transformation in healthcare. A key objective is to
+identify and develop common case studies, datasets, tools, standards and frameworks for researching model engineering for digital innovation in healthcare.
         </p>
+		<p>
+		The intended audience is researchers from the MODELS community who are interested in applying modelling to healthcare, as well as software engineers
+and healthcare researchers who focus on software quality assurance. The aim is to encourage collaboration between these two groups. Modelling researchers may demonstrate the potential of modelling to support digital innovation in healthcare through the development of high-quality software systems. Meanwhile,
+stakeholders and researchers from the healthcare sector could highlight challenges in software quality assurance that could potentially be addressed using
+specialised modelling or model transformation techniques. They can also help evaluate such model-based solutions properly within the healthcare domain.
+		</p>
+		<!--
         <p>
           The MULTI workshop series aims at providing a platform for exchanging ideas and promoting further development of multi-level languages, methods, and tools. A particular goal is to encourage the community to, beyond proposing new approaches, analyse different approaches to multi-level modelling and define objective ways to evaluate their respective strengths and weaknesses.
         </p>
+		-->
         <p>
-          The <b>11<sup>th</sup> International Workshop on Multi-Level Modeling (MULTI 2024)</b> will be a single day event to held on <a href="https://conf.researchr.org/program/models-2024/program-models-2024/?date=Tue%2024%20Sep%202024">Tuesday, 24 September 2024</a> as workshop W6, at the <a href="https://conf.researchr.org/home/models-2024">MODELS'24</a> conference in Linz, Austria.
+          The <b>1<sup>st</sup> International Workshop on Model Engineering for Digital Innovation in Healthcare (MEDIC 2026)</b> is proposed as a single day event to be held at the <a href="https://conf.researchr.org/home/models-2026">
+		  <!--Tuesday, 24 September 2024</a> as workshop W6, at the <a href="https://conf.researchr.org/home/models-2024">-->MODELS'26</a> conference in Malaga, Spain.
         </p>
 
         <h4>Latest updates</h4>   
         <ul>
+			<li>
+				6 Mar 2026: Workshop proposal submitted to MODELS'26 Workshop Chairs
+			</li>
+		<!--
           <li> <a href="https://multi-workshop.github.io/index.html#program">Workshop schedule published</a> (1 September 2024)</li>
           <li> <a href="https://multi-workshop.github.io/index.html#dates">Workshop date available</a> (30 August 2024)</li>
 	  <li> Added Easchair link (29 April 2024)</li>
           <li> <a href="https://multi-workshop.github.io/index.html#cfp">Call for submissions</a> published (18 April 2024)</li>
-	</ul>
+		  -->
+		</ul>
       </div>
 
 	    
@@ -268,10 +293,10 @@
   <h2 class="pb-2">Important Dates</h2>
 
   <ul>
-    <li>Paper Submission: <del> 5 </del> &nbsp;10 July 2024 (AoE)</li>
-    <li>Authors Notification: 7 August 2024</li>
-    <li>Camera-ready Papers: 16 August 2024</li>
-    <li>Workshop: <a href="https://conf.researchr.org/program/models-2024/program-models-2024/?date=Tue%2024%20Sep%202024">24 September 2024</a></li>
+    <li>Paper Submission: <!--<del> 5 </del> &nbsp;-->Fri, 3 July 2026 (AoE)</li>
+    <li>Authors Notification: Fri, 31 July 2026</li>
+    <li>Camera-ready Papers: Fri, 14 August 2026</li>
+    <!--<li>Workshop: <a href="https://conf.researchr.org/program/models-2024/program-models-2024/?date=Tue%2024%20Sep%202024">24 September 2024</a></li>-->
   </ul>
 
   </div>
@@ -280,37 +305,35 @@
 <!-- -------------------------------------------------------------------------------------------------------------------- -->
 	  
 <div class="tab-pane fade" id="cfp">
-  <p> MULTI 2024 invites submissions of four different types: 
+  <p> MEDIC 2026 invites submissions of two different types: 
     <ul>
       <li>regular research papers (10 pages).</li>
-      <li><a href="https://multi-workshop.github.io/index.html#challenges">challenge</a> papers (10 pages).</li>
       <li>position papers (5 pages).</li>
-      <li>industrial abstracts (2 pages).</li>
     </ul>
   </p>
 
   <h4 class="pb-2">Topics</h4>
-  <p>
-    Topics for regular and position papers include, but are not limited to:
-  </p> 
-
+	<p>
+		The MEDIC workshop welcomes submissions in all topics related to model engineering for digital innovation in healthcare including, but not limited to:
+	</p>	
   <ul>
-    <li>the nature of elements in a multi-level hierarchy and how to best represent and present them.</li>
-    <li>the importance and role of deep characterization mechanisms, including potency and its variants.</li>
-    <li>the structure of MLM frameworks.</li>
-    <li>fundamental aspects of MLM, such as model composition and decomposition.</li>
-    <li>formal approaches to MLM.</li>
-    <li>tool support for MLM.</li>
-    <li>MLM in education.</li>
-    <li>model management (transformation, code generation etc.) in a multi-level setting.</li>
-    <li>integration of modelling and programming languages in a multi-level setting.</li>
-    <li>constraints in a multi-level setting.</li>
-    <li>definition of behavioral semantics in a multi-level setting.</li>
-    <li>methods and techniques for discovering clabjects and their specializations and classification relationships.</li>
-    <li>design patterns addressing when and how to apply multi-level metamodelling.</li>
-    <li>case studies demonstrating advantages of multi-level techniques.</li>
-    <li>applying MLM to large and/or real-world problems.</li>
-    <li>criteria and approaches for comparing MLM approaches.</li>
+    <li>modeling foundations for software engineering activities (requirements engineering,
+constraint gathering, architecture communication and analysis,
+verification and validation, monitoring, etc.) in the healthcare domain</li>
+	<li>integration of domain experts (from medical personnel to patients themselves)
+into modeling process</li>
+	<li>systematic user testing (UX/HCI) enabled by modeling techniques in the
+healthcare domain</li>
+	<li>certification in the healthcare domain using modeling</li>
+	<li>tackling of ethical concerns (e.g. privacy of patient data) in healthcare using
+model-based techniques</li>
+	<li>&quot;multi-level&quot; modeling in the healthcare domain</li>
+	<li>modeling for digital twins in the healthcare domain</li>
+	<li>AI components and their integration with modeling in the healthcare domain</li>
+	<li>challenges when using model-based techniques for closed systems in healthcare</li>
+	<li>case studies and empirical research on the use of models or model transformations
+in practical healthcare settings</li>
+
   </ul>
 
   <h4 class="pb-2">Submission guidelines</h4>
