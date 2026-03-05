@@ -60,26 +60,43 @@
     .header {
       <!--width: 100%;-->
       <!--text-align: center;-->
+	  display: flex;
 	  align: right;
 	  align-content: flex-end;
 	  justify-content: flex-end;
       position: relative;
+	  background-position: center;
     }
 
     .header img {
       <!--width: 100%;-->
+	  display: flex;
 	  align-content: flex-end;
 	  justify-content: flex-end;
+	  background-position: center;
       <!--min-width: 880px;-->
     }
 
     .header div {
-      position: absolute;
+      text-indent: 3.3cm;
+	  position: absolute;
       top: 0.5em;
       left: 0em;
       font-size: 19px;
       color: #513C35;
       text-align: left;
+	  justify-content: flex-end;
+      <!--position: relative;-->
+	  background-position: center;
+    }
+	
+	.header>div>img {
+	  display: flex;
+	  align: right;
+	  align-content: flex-end;
+	  justify-content: flex-end;
+      position: relative;
+	  background-position: center;	
     }
 
     .header>div>p {
@@ -201,9 +218,12 @@
       <img src="img/logo.jpg" width="150" height="150"/>
       <div style="zoom:1.14">
         <p style="font-size: 23px; line-height: 1.4; margin-bottom: -0.5em">
-          MEDIC 2026 - 1<sup>st</sup> International Workshop <br/>
-          on Model Engineering for Digital Innovation <br>
-		  in Healthcare</p>
+          1<sup>st</sup> International Workshop on Model Engineering
+		</p>
+		<p style="font-size: 23px; line-height: 1.4; margin-bottom: -0.5em">
+          for Digital Innovation in Healthcare (MEDIC)
+		</p>
+
         <p style="line-height: 1.4;">4-5 October 2026, co-located at MODELS 2026, Malaga, Spain</p>
       </div>
     </div>
@@ -401,7 +421,7 @@ in practical healthcare settings</li>
 			<li>Yngve Lamo, Western Norway University of Applied Sciences, Norway</li>
 			<li>Lambers Leen, Brandenburg University of Technology, Germany</li>
 			<li>Oskar Pastor, Universit´a Politechnic´a de Valencia</li>
-			<li>Sakizloglou Lucas, , Israel</li>
+			<li>Sakizloglou Lucas, Certora, Israel</li>
 			<li>Silvia Lizeth Tapia Tarifa, University of Oslo, Norway</li>
 			<li>Van Gorp Pieter, Eindhoven University, Netherlands</li>
 			<li>Weber Jens, Unversity of Victoria, Canada</li>
